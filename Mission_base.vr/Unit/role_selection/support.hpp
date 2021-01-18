@@ -6,181 +6,231 @@
 */
 
 class Support1 {
-		displayName = "Tanker";									// Name visible in the menu
-		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";	// Icon displayed next to the name
-		role = "Support";										// Optional, see CfgRoles
+	displayName = "Tanker";									// Name visible in the menu
+	icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";	// Icon displayed next to the name
+	role = "Support";										// Optional, see CfgRoles
 
-		// Loadout definition, uses same entries as CfgVehicles classes
-		weapons[] = {
-		"rhs_weap_m4a1_blockII_KAC",
-		"Binocular",
-		"rhsusf_weap_m9",
+	// Loadout definition, uses same entries as CfgVehicles classes
+
+	// Exported from Arsenal by SPC. Goku
+	weapons[] = {
+		"rhs_weap_m4_m320",
+		"rhsusf_weap_m1911a1",
+		"Laserdesignator",
 		"Throw",
 		"Put"
-	};
+		};
 
 	magazines[] = {
-		//M855A1 #7
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		//Chemlight Blue
-		"ACE_Chemlight_HiBlue",
-		"ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen",
-		"ACE_Chemlight_HiGreen",
-		//Smoke White H/C
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
-		"rhs_mag_an_m8hc",
-		//Smoke Blue
-		"SmokeShellBlue",
-		"SmokeShellBlue",
-		//Smoke Green
-		"SmokeShellGreen",
-		"SmokeShellGreen",
-		//M67	#2
-		"HandGrenade",
-		"HandGrenade"
+		"rhs_mag_M441_HE",
+		"rhsusf_mag_7x45acp_MHP",
+		"Laserbatteries",
+		"rhsusf_mag_7x45acp_MHP",
+		"rhsusf_mag_7x45acp_MHP",
+		"rhsusf_mag_7x45acp_MHP",
+		"rhs_mag_M441_HE",
+		"rhs_mag_M441_HE",
+		"rhs_mag_M441_HE",
+		"rhs_mag_M441_HE",
+		"rhs_mag_M441_HE",
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		"rhs_mag_M441_HE",
+		"rhs_mag_M441_HE",
+		"rhs_mag_M441_HE",
+		"rhs_mag_M441_HE",
+		"rhs_mag_M441_HE",
+		"rhs_mag_M441_HE",
+		"rhs_mag_M585_white",
+		"rhs_mag_M585_white",
+		"rhs_mag_M585_white",
+		"rhs_mag_M585_white",
+		"rhs_mag_M441_HE",
+		"rhsusf_mag_7x45acp_MHP",
+		"rhsusf_mag_7x45acp_MHP",
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"
 	};
-
+	
 	items[] = {
-		//Medical
-		"ACE_morphine",//*2
-		"ACE_morphine",
-		"ACE_epinephrine",//*2
-		"ACE_epinephrine",
-		"ACE_quikclot",//*10
-		"ACE_quikclot",
-		"ACE_quikclot",
-		"ACE_quikclot",
-		"ACE_quikclot",
-		"ACE_quikclot",
-		"ACE_quikclot",
-		"ACE_quikclot",
-		"ACE_quikclot",
-		"ACE_quikclot",
-		"ACE_packingBandage",//*10
-		"ACE_packingBandage",
-		"ACE_packingBandage",
-		"ACE_packingBandage",
-		"ACE_packingBandage",
-		"ACE_packingBandage",
-		"ACE_packingBandage",
-		"ACE_packingBandage",
-		"ACE_packingBandage",
-		"ACE_packingBandage",
+		"ACE_Banana",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
 		"ACE_elasticBandage",
 		"ACE_elasticBandage",
 		"ACE_elasticBandage",
 		"ACE_elasticBandage",
 		"ACE_elasticBandage",
-		"ACE_CableTie",//*2
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
 		"ACE_CableTie",
-		"ACE_tourniquet",//*5
-		"ACE_tourniquet",
-		"ACE_tourniquet",
-		"ACE_tourniquet",
-		"ACE_tourniquet",
-		"ACE_EarPlugs",//*2
-		"ACE_EarPlugs",
-		"ACE_MapTools",
+		"ACE_CableTie",
+		"ACE_CableTie",
+		"ACE_CableTie",
+		"ACE_DefusalKit",
+		"ACE_Fortify",
+		"ItemcTabHCam",
+		"ACE_IR_Strobe_Item",
 		"ACE_Flashlight_XL50",
-		//Spraypaint #2
-		"ACE_SpraypaintRed",//*2
-		"ACE_SpraypaintRed",
+		"ACE_Clacker",
+		"ACE_MapTools",
+		"ACE_microDAGR",
+		"MineDetector",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_morphine",
+		"ACE_epinephrine",
+		"ACE_epinephrine",
+		"ACE_epinephrine",
 		"ACE_EntrenchingTool",
-		//Unit specific 
-		"ACE_microDAGR"
-	};
-
+		"rhsusf_acc_nt4_black",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_elasticBandage",
+		"ACE_elasticBandage",
+		"ACE_elasticBandage",
+		"ACE_elasticBandage",
+		"ACE_elasticBandage",
+		"ACE_elasticBandage",
+		"ACE_elasticBandage",
+		"ACE_elasticBandage",
+		"ACE_elasticBandage",
+		"ACE_elasticBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_packingBandage",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ACE_quikclot",
+		"ToolKit",
+		"ACE_quikclot",
+		"ACE_packingBandage",
+		"ACE_elasticBandage",
+		"ACE_fieldDressing",
+		"ACE_fieldDressing",
+		"ACE_elasticBandage",
+		"ACE_packingBandage"
+		};
+	
 	linkedItems[] = {
-		//Gear common to all
-		"rhsusf_spcs_ocp_rifleman_alt",
-		"rhs_googles_clear",
+		"rhsusf_spcs_ocp_teamleader",
+		"rhsusf_cvc_ess",
+		"rhsusf_shemagh2_gogg_od",
 		"ItemMap",
 		"ItemCompass",
 		"TFAR_microdagr",
-		"TFAR_anprc152",
-		"rhsusf_ANPVS_15",
-		//Unit Specific
+		"TFAR_anprc152_16",
 		"ItemcTab",
-		"rhsusf_hgu56p_visor_mask_black_skull"
-	};
-
-
-	uniformClass = "rhs_uniform_cu_ocp";
-	backpack = "B_LegStrapBag_coyote_F";
+		"ACE_NVG_Gen4"
+		};
+	
+	uniformClass = "rhs_uniform_acu_ocp";
+	backpack = "tfw_ilbe_blade_mc";
 };
 
-	class Support2 {
-		displayName = "JTAC";									// Name visible in the menu
-		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";	// Icon displayed next to the name
-		role = "Support";										// Optional, see CfgRoles
+class Support2 {
+	displayName = "JTAC";									// Name visible in the menu
+	icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";	// Icon displayed next to the name
+	role = "Support";										// Optional, see CfgRoles
 
-		// Loadout definition, uses same entries as CfgVehicles classes
-		weapons[] = {
-			"arifle_MXC_F",
-			"Binocular"
-		};
-		magazines[] = {
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"SmokeShell"
-		};
-		items[] = {
-			"FirstAidKit"
-		};
-		linkedItems[] = {
-			"V_Chestrig_khk",
-			"H_Watchcap_blk",
-			"optic_Aco",
-			"acc_flashlight",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"ItemRadio"
-		};
-		uniformClass = "U_B_CombatUniform_mcam_tshirt";
-		backpack = "B_AssaultPack_mcamo";
+	// Loadout definition, uses same entries as CfgVehicles classes
+	weapons[] = {
+		"arifle_MXC_F",
+		"Binocular"
 	};
-
-	class Support3 {
-		displayName = "Medic";									// Name visible in the menu
-		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";	// Icon displayed next to the name
-		role = "Support";										// Optional, see CfgRoles
-
-		// Loadout definition, uses same entries as CfgVehicles classes
-		weapons[] = {
-			"arifle_MXC_F",
-			"Binocular"
-		};
-		magazines[] = {
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"SmokeShell"
-		};
-		items[] = {
-			"FirstAidKit"
-		};
-		linkedItems[] = {
-			"V_Chestrig_khk",
-			"H_Watchcap_blk",
-			"optic_Aco",
-			"acc_flashlight",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"ItemRadio"
-		};
-		uniformClass = "U_B_CombatUniform_mcam_tshirt";
-		backpack = "B_AssaultPack_mcamo";
+	magazines[] = {
+		"30Rnd_65x39_caseless_mag",
+		"30Rnd_65x39_caseless_mag",
+		"SmokeShell"
 	};
+	items[] = {
+		"FirstAidKit"
+	};
+	linkedItems[] = {
+		"V_Chestrig_khk",
+		"H_Watchcap_blk",
+		"optic_Aco",
+		"acc_flashlight",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"ItemRadio"
+	};
+	uniformClass = "U_B_CombatUniform_mcam_tshirt";
+	backpack = "B_AssaultPack_mcamo";
+};
+
+class Support3 {
+	displayName = "Medic";									// Name visible in the menu
+	icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";	// Icon displayed next to the name
+	role = "Support";										// Optional, see CfgRoles
+
+	// Loadout definition, uses same entries as CfgVehicles classes
+	weapons[] = {
+		"arifle_MXC_F",
+		"Binocular"
+	};
+	magazines[] = {
+		"30Rnd_65x39_caseless_mag",
+		"30Rnd_65x39_caseless_mag",
+		"SmokeShell"
+	};
+	items[] = {
+		"FirstAidKit"
+	};
+	linkedItems[] = {
+		"V_Chestrig_khk",
+		"H_Watchcap_blk",
+		"optic_Aco",
+		"acc_flashlight",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"ItemRadio"
+	};
+	uniformClass = "U_B_CombatUniform_mcam_tshirt";
+	backpack = "B_AssaultPack_mcamo";
+};
 
 
-// Exported from Arsenal by 2LT. Michael
+
 

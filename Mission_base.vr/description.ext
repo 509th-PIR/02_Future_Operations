@@ -35,20 +35,17 @@ class CfgFunctions
 };
 
 class CfgDebriefing{  
-  #include "Unit\Anti_cheat\anti_cheat.hpp" 
-    
+  #include "Unit\Anti_cheat\anti_cheat.hpp"  
 };
 
 //Role selection
 respawnTemplatesWest[] = {"MenuInventory","MenuPosition"};
-
 class CfgRoles
 {
 	#include "Unit\role_selection\roles.hpp"
 };
 
-class CfgRespawnInventory
-{
+class CfgRespawnInventory{
 	#include "Unit\role_selection\Infantry.hpp"
 	#include "Unit\role_selection\Pilots.hpp"
 	#include "Unit\role_selection\support.hpp"
@@ -74,5 +71,5 @@ class CfgRemoteExec
 
 //////////////////// Vcom CBA settings ////////////////////////////////
 class Extended_PreInit_EventHandlers {
-	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_Functions\fn_CBASettings.sqf"
+	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_Functions\fn_CBASettings.sqf";
 };

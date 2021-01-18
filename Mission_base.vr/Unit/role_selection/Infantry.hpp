@@ -120,8 +120,8 @@ class Infantry1 {
 	};
 
 	uniformClass = "rhs_uniform_cu_ocp";
-	backpack = "B_LegStrapBag_coyote_F";//need Backpack 
-
+	backpack = "tfw_ilbe_blade_mc"; 
+};
 class Infantry2 {
 	displayName = "Squad leader";									// Name visible in the menu
 	icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";	// Icon displayed next to the name
@@ -129,11 +129,11 @@ class Infantry2 {
 
 	// Loadout definition, uses same entries as CfgVehicles classes
 	weapons[] = {
-	"rhs_weap_m4a1_blockII_KAC",
-	"Binocular",
-	"rhsusf_weap_m9",
-	"Throw",
-	"Put"
+		"rhs_weap_m4a1_blockII_KAC",
+		"Binocular",
+		"rhsusf_weap_m9",
+		"Throw",
+		"Put"
 	};
 
 	magazines[] = {
@@ -225,13 +225,14 @@ class Infantry2 {
 		"TFAR_anprc152",
 		"rhsusf_ANPVS_15",
 		//Unit Specific
+		"rhsusf_ach_helmet_ocp",
 		"ItemcTab",
 		"rhsusf_hgu56p_visor_mask_black_skull"
 	};
 
 
 	uniformClass = "rhs_uniform_cu_ocp";
-	backpack = "B_LegStrapBag_coyote_F";
+	backpack = "tfw_ilbe_blade_mc"; 
 };
 
 class Infantry3 {
@@ -309,7 +310,8 @@ class Infantry3 {
 		"rhsusf_spcs_ocp",
 		"rhsusf_ach_helmet_ocp",
 		"rhs_googles_clear",
-		"ItemMap","ItemCompass",
+		"ItemMap",
+		"ItemCompass",
 		"tf_microdagr",
 		"TFAR_anprc152",
 		"ItemGPS"
