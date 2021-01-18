@@ -6,7 +6,7 @@ if (!isServer && isNull player) then {isJIP=true;} else {isJIP=false;};
 [] execVM "Unit\Anti_cheat\CheatInit.sqf";
 [] execVM "Unit\TowArtillery.sqf";
 [] execVM "Unit\role_selection\RoleInit.sqf";
-[] execVM "Unit\Limited_Arsenal\Arsenal.sqf";
+
 
 
 //////////////////////View Distance Settings///////////////////////////////////////////////////////////////////////////////////////////

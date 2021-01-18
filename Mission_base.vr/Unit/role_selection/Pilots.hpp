@@ -67,6 +67,7 @@ class Pilot1
 	backpack = "";
 };
 
+
 class Pilot2
 {
 	displayName = "Rotary Wing Pilot";						  // Name visible in the menu
