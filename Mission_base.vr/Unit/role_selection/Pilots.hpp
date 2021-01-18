@@ -93,7 +93,8 @@ class Pilot2
 		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
 		//Chemlight Blue
 		"ACE_Chemlight_HiBlue",
-		"ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen",
+		"ACE_Chemlight_HiBlue",
+		"ACE_Chemlight_HiGreen",
 		"ACE_Chemlight_HiGreen",
 		//Smoke White H/C
 		"rhs_mag_an_m8hc",
