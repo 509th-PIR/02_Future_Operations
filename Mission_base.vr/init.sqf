@@ -3,8 +3,9 @@ if (!isServer && isNull player) then {isJIP=true;} else {isJIP=false;};
 
 //Exec Vcom AI function
 [] execVM "Vcom\VcomInit.sqf";
-[] execVM "Unit\Anti_cheat\CheatInit.sqf"
-[] execVM"Unit\TowArtillery.sqf"
+[] execVM "Unit\Anti_cheat\CheatInit.sqf";
+[] execVM "Unit\TowArtillery.sqf";
+[] execVM "Unit\role_selection\RoleInit.sqf";
 
 //////////////////////View Distance Settings///////////////////////////////////////////////////////////////////////////////////////////
 
