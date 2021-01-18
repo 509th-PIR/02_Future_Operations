@@ -85,7 +85,39 @@ _available_203 = [
 _available_Ammo556 = [
 	"rhs_mag_30Rnd_556x45_M855A1_Stanag",
 	"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
-	"rhs_mag_30Rnd_556x45_M855A1_PMAG"
+	"rhs_mag_30Rnd_556x45_M855A1_PMAG",
+	"rhsusf_100Rnd_762x51_m80a1epr",
+	"rhsusf_100Rnd_762x51_m62_tracer",
+	"rhsusf_50Rnd_762x51_m62_tracer",
+	"rhsusf_50Rnd_762x51_m80a1epr",
+	"rhsusf_100Rnd_556x45_M200_soft_pouch",
+	"rhsusf_100Rnd_556x45_M200_soft_pouch_coyote",
+	"rhsusf_100Rnd_556x45_M855_soft_pouch",
+	"rhsusf_100Rnd_556x45_M855_soft_pouch_coyote",
+	"rhsusf_100Rnd_556x45_M855_mixed_soft_pouch",
+	"rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote",
+	"rhsusf_100Rnd_556x45_soft_pouch",
+	"rhsusf_100Rnd_556x45_soft_pouch_coyote",
+	"rhsusf_100Rnd_556x45_mixed_soft_pouch",
+	"rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote",
+	"rhsusf_100Rnd_556x45_M955_soft_pouch",
+	"rhsusf_100Rnd_556x45_M955_soft_pouch_coyote",
+	"rhsusf_200Rnd_556x45_M855_box",
+	"rhsusf_200Rnd_556x45_M855_mixed_box",
+	"rhsusf_200Rnd_556x45_box",
+	"rhsusf_200Rnd_556x45_mixed_box",
+	"rhsusf_200Rnd_556x45_M200_soft_pouch",
+	"rhsusf_200Rnd_556x45_M200_soft_pouch_coyote",
+	"rhsusf_200Rnd_556x45_M855_soft_pouch",
+	"rhsusf_200Rnd_556x45_M855_soft_pouch_coyote",
+	"rhsusf_200Rnd_556x45_M855_mixed_soft_pouch",
+	"rhsusf_200Rnd_556x45_M855_mixed_soft_pouch_coyote",
+	"rhsusf_200Rnd_556x45_soft_pouch",
+	"rhsusf_200Rnd_556x45_soft_pouch_coyote",
+	"rhsusf_200Rnd_556x45_mixed_soft_pouch",
+	"rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote",
+	"rhsusf_200Rnd_556x45_M955_soft_pouch",
+	"rhsusf_200Rnd_556x45_M955_soft_pouch_coyote"
 ];
 
 _available_launchers_ammo = [
@@ -94,7 +126,8 @@ _available_launchers_ammo = [
 	"MRAWS_HEAT55_F",
 	"rhs_mag_maaws_HEAT",
 	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"rhs_mag_maaws_HE",
+	"rhs_fgm148_magazine_AT"
 ];
 
 _available_Ammo762 = [
@@ -138,8 +171,11 @@ _available_misc_items = [
 	"acc_pointer_IR",
 	"ITC_ROVER_SIR",
 	"rhsusf_acc_anpeq15side",
-	"tfw_rf3080Item"
-
+	"tfw_rf3080Item",
+	"ACE_acc_pointer_green",
+	"acc_flashlight",
+	"itemWatch",
+	"ACE_Altimeter"
 ];
 
 _available_Explosives = [
@@ -191,8 +227,6 @@ _available_ace_items = [
 	"ACE_Wirecutter"
 
 ];
-
-
 
 _available_medical = [
 	"ACE_fieldDressing",
@@ -285,37 +319,58 @@ _available_Vests = [
 
 ];
 _available_barrel_attatchments = [
-	"ace_muzzle_mzls_I"
-	"ace_muzzle_mzls_b"
-	"rhsusf_acc_nt4_black"
-	"rhsusf_acc_nt4_tan"
-	"rhsusf_acc_rotex5_grey"
-	"rhsusf_acc_rotex5_tan"
-	"rhsusf_acc_sf3p556"
-	"rhsusf_acc_sfmb556"
-	"rhsusf_acc_m24_muzzlehider_black"
-	"rhsusf_acc_m24_muzzlehider_d"
-	"rhsusf_acc_m24_muzzlehider_wd"
-	"rhsusf_acc_m24_silencer_black"
-	"rhsusf_acc_m24_silencer_d"
-	"rhsusf_acc_m24_silencer_wd"
-	"rhsusf_acc_ardec_m240"
-	"muzzle_snds_h_mg_blk_f"
-	"muzzle_snds_h_mg_khk_f"
-	"rhsusf_acc_sr25s"
-	"rhsusf_acc_sr25s_d"
-	"rhsusf_acc_sr25s_wd"
-	"rhsusf_acc_m2010s"
-	"rhsusf_acc_m2010s_d"
-	"rhsusf_acc_m2010s_sa"
-	"rhsusf_acc_m2010s_wd"
-	"rhsusf_acc_aac_762sd_silencer"
-	"ace_muzzle_mzls_smg_02"
-	"rhsusf_acc_omega9k"
+	"ace_muzzle_mzls_l",
+	"ace_muzzle_mzls_b",
+	"rhsusf_acc_nt4_black",
+	"rhsusf_acc_nt4_tan",
+	"rhsusf_acc_rotex5_grey",
+	"rhsusf_acc_rotex5_tan",
+	"rhsusf_acc_sf3p556",
+	"rhsusf_acc_sfmb556",
+	"rhsusf_acc_m24_muzzlehider_black",
+	"rhsusf_acc_m24_muzzlehider_d",
+	"rhsusf_acc_m24_muzzlehider_wd",
+	"rhsusf_acc_m24_silencer_black",
+	"rhsusf_acc_m24_silencer_d",
+	"rhsusf_acc_m24_silencer_wd",
+	"rhsusf_acc_ardec_m240",
+	"muzzle_snds_h_mg_blk_f",
+	"muzzle_snds_h_mg_khk_f",
+	"rhsusf_acc_sr25s",
+	"rhsusf_acc_sr25s_d",
+	"rhsusf_acc_sr25s_wd",
+	"rhsusf_acc_m2010s",
+	"rhsusf_acc_m2010s_d",
+	"rhsusf_acc_m2010s_sa",
+	"rhsusf_acc_m2010s_wd",
+	"rhsusf_acc_aac_762sd_silencer",
+	"ace_muzzle_mzls_smg_02",
+	"rhsusf_acc_omega9k",
 	"rhsusf_acc_aac_762sdn6_silencer"
 ];
 
-Bipods:
+_available_bipods = [
+	"bipod_01_f_blk",
+	"bipod_01_f_mpt",
+	"bipod_01_f_snd",
+	"rhsusf_acc_grip2",
+	"rhsusf_acc_grip2_tan",
+	"rhsusf_acc_grip2_wd",
+	"rhsusf_acc_grip1",
+	"rhsusf_acc_harris_bipod",
+	"rhsusf_acc_kac_grip",
+	"rhsusf_acc_kac_grip_saw_bipod",
+	"rhsusf_acc_saw_bipod",
+	"rhsusf_acc_rvg_blk",
+	"rhsusf_acc_rvg_de",
+	"rhsusf_acc_tdstubby_blk",
+	"rhsusf_acc_tdstubby_tan",
+	"rhsusf_acc_grip3",
+	"rhsusf_acc_grip4",
+	"rhsusf_acc_grip4_bipod",
+	"rhsusf_acc_lw_bipod",
+	"rhsusf_acc_grip3_tan"
+];
 
 //////////////////    a26_addVirtualBackpackCargo   start             ////////////////////////
 _available_Backpack = [
@@ -340,7 +395,11 @@ _available_Backpack = [
 		"tfw_ilbe_DD_mc",
 		"itc_rhsusf_M252_Bipod_Bag",
 		"itc_rhsusf_M252_Gun_Bag",
-		"UK3CB_ADP_B_B_ENG"	
+		"UK3CB_ADP_B_B_ENG",
+		"RHS_MK19_Gun_Bag",
+		"RHS_MK19_Tripod_Bag",
+		"rhs_Tow_Gun_Bag",
+		"rhs_TOW_Tripod_Bag"	
 ];
 
 a26_VirtualWeaponCargo = 
@@ -354,7 +413,8 @@ a26_VirtualMagazineCargo =
 	_available_handgrenade + 
 	_available_Ammo762 +
 	_available_launchers_ammo +
-	_available_sidearms_ammo;
+	_available_sidearms_ammo+
+	_available_Explosives;
 
 a26_VirtualItemCargo = 
 	_available_nvgoggles + 
@@ -367,8 +427,7 @@ a26_VirtualItemCargo =
 	_available_binos + 
 	_available_start_items + 
 	_available_Headgear + 
-	_available_barrel_attatchments +
-	_available_Explosives;
+	_available_barrel_attatchments;
 
 a26_addVirtualBackpackCargo = _available_Backpack;
 
