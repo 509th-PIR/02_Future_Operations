@@ -1,6 +1,6 @@
 
 loadScreen = "core\img\btc.paa";
-author = "Giallustio";
+author = "Giallustio, 509 Mission Dev";
 onLoadName = $STR_BTC_HAM_DESCR_NAME;
 onLoadMission = $STR_BTC_HAM_DESCR_MISSION;
 enabledebugconsole = 1;
@@ -48,6 +48,24 @@ class CfgFunctions {
 	#include "CHVD\CfgFunctions.hpp"
     #include "core\fnc\eh\functions.hpp"
     // add your own functions below
+};
+
+class CfgDebriefing{  
+  #include "Unit\Anti_cheat\anti_cheat.hpp"  
+};
+
+
+//Role selection
+respawnTemplatesWest[] = {"MenuInventory","MenuPosition"};
+class CfgRoles
+{
+	#include "Unit\role_selection\roles.hpp"
+};
+
+class CfgRespawnInventory{
+	#include "Unit\role_selection\Infantry.hpp"
+	#include "Unit\role_selection\Pilots.hpp"
+	#include "Unit\role_selection\support.hpp"
 };
 
 class CfgRemoteExec
