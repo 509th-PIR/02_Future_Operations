@@ -1,4 +1,4 @@
-
+#include role_selection\a26_macros.hpp
 /*Infantry Loadout
 TODO {
 	Team leader 
@@ -27,16 +27,11 @@ class Infantry1 {
 
 	magazines[] = {
 		//M855A1 #7
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG",
+		ITEM_6("rhs_mag_30Rnd_556x45_M855A1_PMAG"),
 		//Chemlight Blue
+		ITEM_2("ACE_Chemlight_HiBlue"),
 		"ACE_Chemlight_HiBlue",
-		"ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen",
+		"ACE_Chemlight_HiGreen",
 		"ACE_Chemlight_HiGreen",
 		//Smoke White H/C
 		"rhs_mag_an_m8hc",

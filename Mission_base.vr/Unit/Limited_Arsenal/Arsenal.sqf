@@ -26,7 +26,10 @@ a26_addVirtualBackpackCargo = [];
 // 	"_available_ace_items"
 // ];
 
-
+a26_VirtualWeaponCargo +
+a26_VirtualMagazineCargo +
+a26_VirtualItemCargo +
+a26_addVirtualBackpackCargo;
 
 _available_primaries = [
 	"rhs_weap_m4a1_blockII_KAC",
