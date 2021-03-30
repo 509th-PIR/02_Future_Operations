@@ -22,7 +22,7 @@ ____________________________________________*/
 
 
 author="509th PIR Mission Development";
-OnLoadName = "Operation Rolling Wake Master";
+OnLoadName = "Operation Rolling Wake I";
 OnLoadMission = "September 17th 1987 - Somewhere near Czechoslovakia: The 509th PIR gears up for an Operation to escalate the Cold War";
 
 
